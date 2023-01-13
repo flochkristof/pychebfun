@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pychebfun
+Version: 0.1.1
+Summary: Python Chebyshev Functions
+Home-page: https://github.com/pychebfun/pychebfun
+Author: Olivier Verdier
+Author-email: olivier.verdier@gmail.com
+Maintainer: Olivier Verdier
+Maintainer-email: olivier.verdier@gmail.com
+License: BSD
+Keywords: Math,Chebyshev,chebfun
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires: numpy
+Requires: scipy
+Requires: matplotlib
+License-File: LICENSE.md
