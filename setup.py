@@ -2,10 +2,12 @@
 
 from distutils.core import setup
 
+import pychebfun
+
 
 setup(
     name         = 'pychebfun',
-    version      = "0.1.1",
+    version      = pychebfun.__version__,
     maintainer = 'Olivier Verdier',
     maintainer_email = 'olivier.verdier@gmail.com',
     description  = 'Python Chebyshev Functions',
@@ -15,16 +17,6 @@ setup(
     license      = 'BSD',
     keywords = ['Math', 'Chebyshev', 'chebfun',],
     packages=['pychebfun',],
-    install_requires=[
-        'numpy',
-        'scipy',
-        'matplotlib'
-        ],
-    requires=[
-        'numpy',
-        'scipy',
-        'matplotlib'
-    ],
     classifiers = [
     'Development Status :: 4 - Beta',
     'Intended Audience :: Science/Research',
