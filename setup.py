@@ -7,7 +7,7 @@ import pychebfun
 
 setup(
     name         = 'pychebfun',
-    version      = pychebfun.__version__,
+    version      = '0.1.1',
     maintainer = 'Olivier Verdier',
     maintainer_email = 'olivier.verdier@gmail.com',
     description  = 'Python Chebyshev Functions',
@@ -17,6 +17,16 @@ setup(
     license      = 'BSD',
     keywords = ['Math', 'Chebyshev', 'chebfun',],
     packages=['pychebfun',],
+    install_requires=[
+        'numpy',
+        'scipy',
+        'matplotlib'
+        ],
+    requires=[
+        'numpy',
+        'scipy',
+        'matplotlib'
+    ],
     classifiers = [
     'Development Status :: 4 - Beta',
     'Intended Audience :: Science/Research',
